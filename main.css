@@ -1,0 +1,301 @@
+/* 86559F */
+/* GENERAL */
+
+.container {
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 6vh;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #bdb8b8;
+    font-family: inherit;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#btn_form:hover, #btn_download:hover, #btn_submit:hover, #btn_section6:hover {
+    background-color: #FFFFFF;
+    color: #3141C5;
+    transition: 0.3s;
+}
+
+/* SECTION 1 */
+
+.section1 {
+    background-color: #dec4ec;
+}
+
+.form_section1 {
+
+}
+
+#btn_form {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 15px;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #3141C5;
+    border: none;
+    transition: 0.3s;
+}
+
+/* SECTION 2 */
+
+.section2 {
+    background-color: #F4F5F7;
+}
+
+.p_section2 {
+    font-weight: 200;
+    padding: 10px 0;
+}
+
+/* SECTION 3 */
+
+.section3 {
+    background-color: #FFFFFF;
+}
+
+.green {
+    color: #009B4D;
+}
+
+.purple {
+    color: #86559F;
+    font-weight: 700;
+    display: inline;
+}
+
+.p_sub {
+    font-size: 12px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.p_section3 {
+    font-weight: 600;
+    margin: 10px 0;
+    display: inline;
+}
+
+#icon_s3 {
+    max-width: 25px;
+    display: inline;
+    padding-right: 5px;
+}
+
+.textbox_s3 {
+    display: inline-block;
+    margin: 15px 0;
+}
+
+/* SECTION 4 */
+
+.section4 {
+    background-color: #FEF9F4;
+}
+
+.orange {
+    color: #F1592B;
+}
+
+.reviews_section4 {
+}
+
+.review {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    border-bottom: 3px solid #0187D1;
+}
+
+.reviews_author {
+    margin-top: 5px;
+}
+
+/* SECTION 5 */
+
+.section5 {
+    background-color: #FFFFFF;
+}
+
+.lightblue {
+    color: #0089D1;
+}
+
+.p_section5 {
+    margin-top: 25px;
+}
+
+#btn_download {
+    background-color: #3142C5;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+    padding: 12px;
+    margin: 15px 0;
+}
+
+/* SECTION 6 */
+
+.section6 {
+    background: linear-gradient(180deg, rgba(244, 245, 247, 1) 0%, rgba(255, 255, 255, 0.896796218487395) 65%, rgba(255, 255, 255, 0.896796218487395) 91%);
+}
+
+.a_section6 {
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 5px 0;
+}
+
+.section6 li, .section6 p {
+    padding: 5px 10px;
+}
+
+.icon {
+    max-width: 20px;
+    display: inline;
+}
+
+.card_li {
+    display: block;
+}
+
+.cards_section6 {
+    border: 1px solid #bdb8b8;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+#btn_section6 {
+    background-color: #3142C5;
+    color: white;
+    transition: 0.3s;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 12px;
+    margin: 15px 0;
+}
+
+.p_card_s6 {
+    display: inline;
+}
+
+.info_card_section6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_image_s6 {
+    max-width: 124px;
+    width: 100%;
+    padding: 25px 0 15px;
+}
+
+.list_card_section6 {
+    border-top: 1px solid #bdb8b8;
+    margin: 20px 5px;
+    padding-top: 15px;
+}
+
+.contact_s6 {
+    margin-top: 50px;
+}
+
+.support_s6 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dash {
+    border-top: 1px solid #bdb8b8;
+    padding-top: 30px;
+}
+
+/* SECTION 7 */
+
+.section7 {
+    background-color: #FFFFFF;
+}
+
+.people {
+    margin: 10px 0;
+    text-align: center;
+    padding: 10px;
+}
+
+/* SECTION 8 */
+
+.section8 {
+    background-color: #F4F5F7;
+}
+
+#btn_submit {
+    text-transform: uppercase;
+    padding: 10px 12px;
+    background-color: #3142C5;
+    font-weight: 600;
+    transition: 0.3s;
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+.sub_s8 {
+    font-size: 10px;
+}
+
+.people {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#people_pics {
+    width: 100%;
+    max-width: 140px;
+    padding-bottom: 10px;
+}
+
+/* SECTION 9 */
+
+.section9 {
+    background-color: #FFFFFF;
+}
+
+.faq {
+    margin: 25px 0;
+}
+
+.q_section9 {
+    font-weight: 700;
+}
+
+.a_section9 {
+    font-weight: 200;
+}
+
+/* MEDIA QUERIES */
