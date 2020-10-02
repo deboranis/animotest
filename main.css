@@ -1,4 +1,7 @@
+/* ANIMO PURPLES */
 /* 86559F */
+/* dec4ec */
+
 /* GENERAL */
 
 .container {
@@ -8,7 +11,7 @@
 }
 
 h1 {
-    font-size: 6vh;
+    font-size: 6.5vh;
 }
 
 input {
@@ -32,14 +35,11 @@ label {
     transition: 0.3s;
 }
 
-/* SECTION 1 */
+/* HEADER */
 
-.section1 {
-    background-color: #dec4ec;
-}
-
-.form_section1 {
-
+.header {
+    background: linear-gradient(rgba(134,85,159,0.580046403712297), rgba(134,85,159,0.37587006960556846)), url(./imgs/bg_s1.jpg) no-repeat center center;
+    color: #FFFFFF;
 }
 
 #btn_form {
@@ -55,119 +55,24 @@ label {
     transition: 0.3s;
 }
 
-/* SECTION 2 */
+/* MISSION */
 
-.section2 {
-    background-color: #F4F5F7;
+.mission {
+    background-color: #dec4ec;
 }
 
-.p_section2 {
+.textbox_mission {
     font-weight: 200;
     padding: 10px 0;
 }
 
-/* SECTION 3 */
+/* CLUBE ANIMO */
 
-.section3 {
-    background-color: #FFFFFF;
-}
-
-.green {
-    color: #009B4D;
-}
-
-.purple {
-    color: #86559F;
-    font-weight: 700;
-    display: inline;
-}
-
-.p_sub {
-    font-size: 12px;
-    padding-top: 10px;
-    margin-bottom: 10px;
-}
-
-.p_section3 {
-    font-weight: 600;
-    margin: 10px 0;
-    display: inline;
-}
-
-#icon_s3 {
-    max-width: 25px;
-    display: inline;
-    padding-right: 5px;
-}
-
-.textbox_s3 {
-    display: inline-block;
-    margin: 15px 0;
-}
-
-/* SECTION 4 */
-
-.section4 {
-    background-color: #FEF9F4;
-}
-
-.orange {
-    color: #F1592B;
-}
-
-.reviews_section4 {
-}
-
-.review {
-    padding: 15px;
-    margin-bottom: 10px;
-    background-color: #FFFFFF;
-    font-size: 14px;
-    border-bottom: 3px solid #0187D1;
-}
-
-.reviews_author {
-    margin-top: 5px;
-}
-
-/* SECTION 5 */
-
-.section5 {
-    background-color: #FFFFFF;
-}
-
-.lightblue {
-    color: #0089D1;
-}
-
-.p_section5 {
-    margin-top: 25px;
-}
-
-#btn_download {
-    background-color: #3142C5;
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 600;
-    transition: 0.3s;
-    padding: 12px;
-    margin: 15px 0;
-}
-
-/* SECTION 6 */
-
-.section6 {
+.clubeanimo {
     background: linear-gradient(180deg, rgba(244, 245, 247, 1) 0%, rgba(255, 255, 255, 0.896796218487395) 65%, rgba(255, 255, 255, 0.896796218487395) 91%);
 }
 
-.a_section6 {
-    text-transform: uppercase;
-    font-size: 12px;
-    padding: 5px 0;
-}
-
-.section6 li, .section6 p {
+.clubeanimo li, .clubeanimo p {
     padding: 5px 10px;
 }
 
@@ -180,121 +85,171 @@ label {
     display: block;
 }
 
-.cards_section6 {
+.cards_clubeanimo {
     border: 1px solid #bdb8b8;
     border-radius: 5px;
     margin: 15px 0;
 }
 
-#btn_section6 {
-    background-color: #3142C5;
-    color: white;
-    transition: 0.3s;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 12px;
-    padding: 12px;
-    margin: 15px 0;
-}
-
-.p_card_s6 {
+.card_p_clubeanimo {
     display: inline;
 }
 
-.info_card_section6 {
+.card_info_clubeanimo {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.card_image_s6 {
+.card_img_clubeanimo {
     max-width: 124px;
     width: 100%;
     padding: 25px 0 15px;
 }
 
-.list_card_section6 {
+.card_list_clubeanimo {
     border-top: 1px solid #bdb8b8;
     margin: 20px 5px;
     padding-top: 15px;
 }
 
-.contact_s6 {
-    margin-top: 50px;
+/* VALUES */
+
+.values {
+    background-color: #FEF9F4;
 }
 
-.support_s6 {
-    text-align: center;
-    margin-top: 20px;
+.orange {
+    color: #F1592B;
 }
 
-.dash {
-    border-top: 1px solid #bdb8b8;
-    padding-top: 30px;
+.textbox_values {
+    padding: 10px 0 25px;
 }
 
-/* SECTION 7 */
+#img_div {
+    background: linear-gradient(rgba(134,85,159,0.580046403712297), rgba(134,85,159,0.37587006960556846)), url(./imgs/running.jpg) no-repeat center center;
+    height: 300px;
+}
 
-.section7 {
+.review {
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+    font-size: 14px;
+    border-bottom: 3px solid #0187D1;
+}
+
+.reviews_author {
+    margin-top: 5px;
+}
+
+/* CREW */
+
+.crew {
     background-color: #FFFFFF;
 }
 
-.people {
+.crewmember {
     margin: 10px 0;
-    text-align: center;
     padding: 10px;
-}
-
-/* SECTION 8 */
-
-.section8 {
-    background-color: #F4F5F7;
-}
-
-#btn_submit {
-    text-transform: uppercase;
-    padding: 10px 12px;
-    background-color: #3142C5;
-    font-weight: 600;
-    transition: 0.3s;
-    text-decoration: none;
-    color: white;
-    border: none;
-}
-
-.sub_s8 {
-    font-size: 10px;
-}
-
-.people {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
 }
 
-#people_pics {
+#crewmember_img {
     width: 100%;
     max-width: 140px;
     padding-bottom: 10px;
 }
 
-/* SECTION 9 */
+/* APP */
 
-.section9 {
-    background-color: #FFFFFF;
+.app {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F5F7;
 }
 
-.faq {
+.purple {
+    color: #86559F;
+    font-weight: 700;
+    display: inline;
+}
+
+.p_app {
     margin: 25px 0;
 }
 
-.q_section9 {
+.text_container_app {
+    display: inline-block;
+    margin: 15px 0;
+}
+
+.textbox_app {
+    font-weight: 600;
+    margin: 10px 0;
+    display: inline;
+}
+
+#icon_app {
+    max-width: 25px;
+    display: inline;
+    padding-right: 5px;
+}
+
+#btn_download {
+    background-color: #3142C5;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+    padding: 12px;
+    margin: 15px 0;
+    width: fit-content;
+}
+
+/* SUPPORT */
+
+.support {
+    background-color: #dec4ec;
+}
+
+.textbox_support {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dash {
+    border-top: 1px solid #86559F;
+    padding-top: 30px;
+}
+
+.a_support {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/* SECTION 9 */
+
+.faq {
+    background-color: #FFFFFF;
+}
+
+.textbot_faq {
+    margin: 25px 0;
+}
+
+.q_faq {
     font-weight: 700;
 }
 
-.a_section9 {
+.a_faq {
     font-weight: 200;
 }
 

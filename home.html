@@ -15,40 +15,27 @@
   </head>
 
   <body>
-    <!-- FAKE NAVBAR -->
-    <div style="height: 51px; background-color: aqua"></div>
 
-    <!-- COMECE A CORRER SEM SOFRER -->
-    <div class="container section1">
-      <div class="titles_section1">
-        <h1>
-          Clube Ânimo <br />
-          Corrida para iniciantes
-        </h1>
-        <h4>
-          Ânimo é o primeiro clube de corrida do Brasil. Corra seus primeiros
-          5KM conosco no parque, na academia ou usando o nosso app
-        </h4>
+    <!-- HEADER -->
+    <div class="container header">
+      <div class="titles_header">
+        <h1>Clube Ânimo</h1>
+        <h2>Corrida para iniciantes</h2>
+        <h4>A equipe que você precisa para dar seus primeiros passos</h4>
       </div>
-      <div class="form_section1">
+      <div class="form_header">
         <label for="nome">Seu nome:</label>
         <input type="text" required placeholder="nome" id="nome" /><br />
         <label for="tel">Seu whatsapp:</label>
         <input type="tel" id="tel" required placeholder="+55 XX XXXX-XXXX" />
-        <button id="btn_form" type="submit">Quero preço promocional</button>
+        <button id="btn_form" type="submit">Faça uma aula teste grátis</button>
       </div>
     </div>
 
-    <!-- ÂNIMO É SÓ CORRIDA? -->
-    <div class="container section2">
+    <!-- MISSION -->
+    <div class="container mission">
       <h2>Seja sua melhor versão</h2>
-      <p class="p_section2">
-        Ânimo é uma solução completa para você que tem uma rotina intensa. Te
-        ajudamos a ter uma qualidade de vida melhor com aulas de funcional, yoga
-        e corrida que podem ser feitas presencialmente ou pelo app.
-      </p>
-
-      <p class="p_section2">
+      <p class="textbox_mission">
         Nossa missão é ajudar você a ser mais saudável e mais feliz, criando um
         ambiente divertido e sem julgamento para você aprender a correr e
         melhorar sua saúde e seu bem-estar. Nossa equipe de professores de
@@ -58,39 +45,134 @@
       </p>
     </div>
 
-    <!-- UM POUCO DE TUDO -->
-    <div class="container section3">
-      <b class="green">Equilíbrio</b>
-      <h2>Um pouco de tudo</h2>
-      <div class="textbox_s3">
-        <img src="./imgs/nav.png" id="icon_s3" />
-        <p class="purple">Funcional, yoga, corridinha, meditação…</p>
-        <p class="p_sub">Um equilibrio saudável de atividades físicas</p>
+    <!-- CLUBE ANIMO -->
+    <div class="container clubeanimo">
+      <div class="titles_clubeanimo">
+        <h2>O que você ganha sendo membro do Clube Ânimo?</h2>
       </div>
-      <div class="textbox_s3">
-        <img src="./imgs/home.png" id="icon_s3" />
-        <p class="p_section3">
-          Todos os treinos podem ser feitos em qualquer lugar
-        </p>
-      </div>
-      <div class="textbox_s3">
-        <img src="./imgs/clock.png" id="icon_s3" />
-        <p class="p_section3">
-          Perdeu um treino? Continue de onde parou pelo app ou no parque
-        </p>
+
+      <div class="container_cards_clubeanimo">
+        <div class="cards_clubeanimo">
+          <div class="card_info_clubeanimo">
+            <img class="card_img_clubeanimo" src="./imgs/run.png" />
+            <b>Aulas</b>
+          </div>
+          <div class="card_list_clubeanimo">
+            <ul>
+              <li class="card_li">
+                <img class="icon" src="./imgs/check.png" />
+                <p class="card_p_clubeanimo">
+                  Aulas coletivas com professor no Parque Ibirapuera
+                </p>
+              </li>
+              <li class="card_li">
+                <img class="icon" src="./imgs/check.png" />
+                <p class="card_p_clubeanimo">
+                  Caminhada/Corrida + Funcional + Alongamento
+                </p>
+              </li>
+              <li class="card_li">
+                <img class="icon" src="./imgs/check.png" />
+                <p class="card_p_clubeanimo">Segundas e quintas das 7h às 8h</p>
+              </li>
+              <li class="card_li">
+                <img class="icon" src="./imgs/check.png" />
+                <p class="card_p_clubeanimo">
+                  Inclui água, gatorade, frutas e guarda-volumes
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="cards_clubeanimo">
+          <div class="card_info_clubeanimo">
+            <img class="card_img_clubeanimo" src="./imgs/community.png" />
+            <b>Comunidade</b>
+          </div>
+          <div class="card_list_clubeanimo">
+            <ul>
+              <li class="card_li">
+                <img class="icon" src="./imgs/check.png" />
+                <p class="card_p_clubeanimo">
+                  Comunidade de membros que se apoiam e se divertem juntos
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="cards_clubeanimo">
+          <div class="card_info_clubeanimo">
+            <img class="card_img_clubeanimo" src="./imgs/calendar.png" />
+            <b>Acompanhamento</b>
+          </div>
+          <div class="card_list_clubeanimo">
+            <ul>
+              <li class="card_li">
+                <img class="icon" src="./imgs/check.png" />
+                <p class="card_p_clubeanimo">
+                  Planilha de treinos personalizada e ajustada uma vez por mês
+                </p>
+              </li>
+              <li class="card_li">
+                <img class="icon" src="./imgs/check.png" />
+                <p class="card_p_clubeanimo">Orientação nutricional personalizada</p>
+              </li>
+              <li class="card_li">
+                <img class="icon" src="./imgs/check.png" />
+                <p class="card_p_clubeanimo">
+                  Acesso por WhatsApp a nossos professores e nutricionistas para
+                  tirar dúvidas
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="cards_clubeanimo">
+          <div class="card_info_clubeanimo">
+            <img class="card_img_clubeanimo" src="./imgs/logo.png" />
+            <b>Aplicativo</b>
+          </div>
+          <div class="card_list_clubeanimo">
+            <ul>
+              <li class="card_li">
+                <img class="icon" src="./imgs/check.png" />
+                <p class="card_p_clubeanimo">
+                  Treinos guiados de corrida, funcional, yoga e meditação para
+                  você fazer onde e quando quiser
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
 
-    <!-- VOCÊ + TREINADOR + EQUIPE -->
-    <div class="container section4">
-      <img />
-      <b class="orange">Comunidade</b>
-      <h2>Você + Treinador + Equipe</h2>
-      <h4>
-        A maioria das academias são obcecadas com o físico. Nós somos obcecados
-        com o seu bem estar. Ame o seu corpo e a sua mente!
-      </h4>
-      <div class="reviews_section4">
+    <!-- IMAGEM -->
+    <div id="img_div"></div>
+
+    <!-- VALUES -->
+    <div class="container values">
+      <div class="titles_values">
+        <h2 class="orange">Por que é diferente treinar com Ânimo?</h2>
+        <h4>Todo mundo é bem-vindo aqui!</h4>
+      </div>
+      <div>
+        <p class="textbox_values">
+          Você já entrou numa academia cheia de gente muito malhada, fazendo
+          treinos super avançados e sentiu que seu lugar não era ali? A Ânimo é
+          o exato oposto.
+        </p>
+        <p class="textbox_values">
+          Nosso clube é um lugar confortável e sem julgamento, onde nossos
+          membros se apoiam mutuamente nas suas jornadas para viver vidas mais
+          saudáveis. Seus colegas de treino viram seus amigos e, o que antes era
+          chato, agora fica divertido!
+        </p>
+      </div>
+      <div class="reviews_values">
         <div class="review">
           <p>
             “Nunca gostei do ambiente hostil das academias, mas no Clube nimo me
@@ -124,268 +206,110 @@
       </div>
     </div>
 
-    <!-- CHOVEU? TREINE NO CONFORTO DA SUA CASA -->
-    <div class="container section5">
-      <b class="lightblue">Ânimo em qualquer lugar</b>
-      <h2>Choveu? Treine no conforto da sua casa</h2>
-      <h4>
-        Use nosso aplicativo em conjunto com os seus treinos: medite, adormeça
-        mais rápido, ou faça até um funcional! Tudo na palma da sua mão
-      </h4>
-      <a id="btn_download" href="" target="blank">Baixar o app</a><br />
-
-      <div class="cards_section5">
-        <p class="p_section5">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod magnam
-          ea, dignissimos placeat, aperiam officiis ab et harum sit veniam
-          voluptatem facilis, recusandae molestias unde obcaecati suscipit. Ad,
-          dolorem illum?
-        </p>
-        <a href="" class="a_section5">Learn more about subscriptions</a>
-        <p class="p_section5">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. At veritatis
-          illo eaque nemo minus eligendi ullam cupiditate aliquid qui maiores
-          odit distinctio vel asperiores nesciunt, sed dicta est sequi ipsam?
-        </p>
-        <a href="" class="a_section5">Get more info about hours</a>
-        <p class="p_section5">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ipsam
-          labore quas vel, maiores maxime enim quasi alias exercitationem ut
-          debitis necessitatibus eius! Perferendis deserunt animi quaerat,
-          delectus soluta consectetur?
-        </p>
-        <a href="" class="a_section5">Communication guidelines</a>
-      </div>
-    </div>
-
-    <!-- POR QUE É DIFERENTE TREINAR COM ÂNIMO? -->
-    <div class="container section6">
-      <div class="titles_section6">
-        <h2>Por que é diferente treinar com Ânimo?</h2>
-        <p>Lorem ipsum dolor sit amet</p>
-      </div>
-      <div class="container_cards_section6">
-        <div class="cards_section6">
-          <div class="info_card_section6">
-            <img class="card_image_s6" src="./imgs/run.png" />
-            <p>Aplicativos de corrida</p>
-            <p>Assine e nunca use</p>
-            <b>R$30</b>
-          </div>
-          <div class="list_card_section6">
-            <ul>
-              <li class="card_li">
-                <img class="icon" src="./imgs/cancel.png" />
-                <p class="p_card_s6">desmotivado</p>
-              </li>
-              <li class="card_li">
-                <img class="icon" src="./imgs/cancel.png" />
-                <p class="p_card_s6">tá correndo de quem?</p>
-              </li>
-              <li class="card_li">
-                <img class="icon" src="./imgs/cancel.png" />
-                <p class="p_card_s6">ablubleblublu</p>
-              </li>
-              <li class="card_li">
-                <img class="icon" src="./imgs/cancel.png" />
-                <p class="p_card_s6">é isto</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="cards_section6">
-          <div class="info_card_section6">
-            <img class="card_image_s6" src="./imgs/weight.png" />
-            <p>Academia</p>
-            <p>Uma droga cheio de bombado</p>
-            <b>R$200</b>
-          </div>
-          <div class="list_card_section6">
-            <ul>
-              <li class="card_li">
-                <img class="icon" src="./imgs/cancel.png" />
-                <p class="p_card_s6">caro pacarai</p>
-              </li>
-              <li class="card_li">
-                <img class="icon" src="./imgs/cancel.png" />
-                <p class="p_card_s6">multipass</p>
-              </li>
-              <li class="card_li">
-                <img class="icon" src="./imgs/cancel.png" />
-                <p class="p_card_s6">barbra streisand</p>
-              </li>
-              <li class="card_li">
-                <img class="icon" src="./imgs/cancel.png" />
-                <p class="p_card_s6">existential dread</p>
-              </li>
-              <li class="card_li">
-                <img class="icon" src="./imgs/cancel.png" />
-                <p class="p_card_s6">academia sucks balls</p>
-              </li>
-              <li class="card_li">
-                <img class="icon" src="./imgs/cancel.png" />
-                <p class="p_card_s6">mó chato</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="cards_section6">
-          <div class="info_card_section6">
-            <img class="card_image_s6" src="./imgs/logo.png" />
-            <p>Ânimo</p>
-            <p>Bem estar em qualquer lugar</p>
-            <b>R$100</b>
-            <a href="" id="btn_section6">Começar a treinar gratuitamente</a>
-          </div>
-          <div class="list_card_section6">
-            <ul>
-              <li class="card_li">
-                <img class="icon" src="./imgs/check.png" />
-                <p class="p_card_s6">top demais</p>
-              </li>
-              <li class="card_li">
-                <img class="icon" src="./imgs/check.png" />
-                <p class="p_card_s6">vários treino</p>
-              </li>
-              <li class="card_li">
-                <img class="icon" src="./imgs/check.png" />
-                <p class="p_card_s6">tudo em casa</p>
-              </li>
-              <li class="card_li">
-                <img class="icon" src="./imgs/check.png" />
-                <p class="p_card_s6">não cheira o cc dozotro</p>
-              </li>
-              <li class="card_li">
-                <img class="icon" src="./imgs/check.png" />
-                <p class="p_card_s6">risco zero de frieira no vestiário</p>
-              </li>
-              <li class="card_li">
-                <img class="icon" src="./imgs/check.png" />
-                <p class="p_card_s6">malhe pelado</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="contact_s6">
-        <div class="support_s6">
-          <b>Precisa de ajuda?</b>
-          <p>Tem mais dúvidas? Algo deu errado? Fale conosco!</p>
-          <a href="" class="a_section6">Abrir ticket</a>
-        </div>
-        <div class="support_s6 dash">
-          <b>Customize seu plano</b>
-          <p>
-            Está procurando algo diferente? Peça uma consultoria particular para
-            adaptar seu plano às suas necessidades!
-          </p>
-          <a href="" class="a_section6">Entre em contato</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- QUEM VAI TE ACOMPANHAR NESSA JORNADA -->
-    <div class="container section7">
-      <div class="titles_section7">
+    <!-- CREW -->
+    <div class="container crew">
+      <div class="titles_crew">
         <h2>Quem vai te acompanhar nessa jornada</h2>
       </div>
-      <div class="cards_section7">
-        <div class="people">
+      <div class="cards_crew">
+        <div class="crewmember">
           <img
-            id="people_pics"
+            id="crewmember_img"
             src="./imgs/karolroxo.png"
             alt="Foto de Karol Ribeiro"
           />
           <b>Karol Ribeiro</b>
-          <em>Trainer</em>
+          <em>Exercício e Nutrição</em>
         </div>
-        <div class="people">
+        <div class="crewmember">
           <img
-            id="people_pics"
+            id="crewmember_img"
             src="./imgs/andersonroxo.png"
             alt="Foto de Anderson Dantas"
           />
           <b>Anderson Dantas</b>
           <em>Trainer</em>
         </div>
-        <div class="people">
+        <div class="crewmember">
           <img
-            id="people_pics"
+            id="crewmember_img"
             src="./imgs/jayroxo.png"
             alt="Foto de Jay Lanners"
           />
           <b>Jay Lanners</b>
           <em>Founder</em>
         </div>
+        <div class="crewmember">
+          <img id="crewmember_img" src="./imgs/kikoroxo.png" alt="Foto de Kiko Dragone" />
+          <b>Kiko Dragone</b>
+          <em>Trainer</em>
+        </div>
       </div>
     </div>
 
-    <!-- GARANTA SEU PRIMEIRO TREINO GRATUITO -->
-    <div class="container section8">
-      <h3>Garanta o seu primeiro treino gratuito</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem
-        suscipit, voluptas consequatur illum obcaecati nisi corporis dolorem
-        praesentium aperiam qui, nam error perspiciatis. Illum dolor eius
-        cupiditate incidunt reiciendis.
+    <!-- APP -->
+    <div class="container app">
+      <b class="purple">Ânimo em qualquer lugar</b>
+      <h2>Choveu? Treine no conforto da sua casa</h2>
+      <p class="p_app">
+        Fazendo parte do Clube de Corrida, você também ganha acesso premium a nosso aplicativo, onde pode encontrar treinos guiados de corrida, funcional e yoga para você fazer em casa ou na rua para complementar seus treinos no parque conosco. Também inclui meditações guiadas e até sons para te ajudar a dormir!
       </p>
-      <input type="email" required placeholder="Digite seu email" />
-      <button type="submit" id="btn_submit">Enviar</button>
-      <p class="sub_s8">
-        terms & conditions apply bish!
-        <a href="" target="blank">check them terms</a>
-      </p>
+      <div class="text_container_app">
+        <img src="./imgs/home.png" id="icon_app" />
+        <p class="textbox_app">
+          Todos os treinos podem ser feitos em qualquer lugar
+        </p>
+      </div>
+      <div class="text_container_app">
+        <img src="./imgs/clock.png" id="icon_app" />
+        <p class="textbox_app">
+          Perdeu um treino? Continue de onde parou pelo app ou no parque
+        </p>
+      </div>
+      <a id="btn_download" href="" target="blank">Baixar o app</a><br />
     </div>
 
-    <!-- YOUR QUESTIONS ANSWERED -->
-    <div class="container section9">
+    <!-- SUPPORT -->
+    <div class="container support">
+      <div class="div_support">
+        <div class="textbox_support">
+          <b>Precisa de ajuda?</b>
+          <p>Tem mais dúvidas? Algo deu errado? Fale conosco!</p>
+          <a href="" class="a_support">Abrir ticket</a>
+        </div>
+        <div class="textbox_support dash">
+          <b>Customize seu plano</b>
+          <p>
+            Está procurando algo diferente? Peça uma consultoria particular para
+            adaptar seu plano às suas necessidades!
+          </p>
+          <a href="" class="a_support">Entre em contato</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="container faq">
       <h2>Suas perguntas, respondidas</h2>
-      <div class="faq">
-        <b class="q_section9">"Ânimo é só corrida?"</b>
-        <p class="a_section9">
+      <div class="textbot_faq">
+        <b class="q_faq">"Ânimo é só corrida?"</b>
+        <p class="a_faq">
           Ânimo é para iniciantes da corrida, com treinos adequados para essas
           pessoas. Se você já consegue correr 5K relativamente rápido sem parar,
           a Ânimo não é para você.
         </p>
       </div>
-      <div class="faq">
-        <b class="q_section9">"Quanto custa fazer parte do Ânimo?"</b>
-        <p class="a_section9">
+      <div class="textbot_faq">
+        <b class="q_faq">"Quanto custa fazer parte do Ânimo?"</b>
+        <p class="a_faq">
           Por um tempo limitado, você pode fazer parte por R$99/mês.
         </p>
       </div>
-      <div class="faq">
-        <b class="q_section9">"Posso cancelar em qualquer momento?"</b>
-        <p class="a_section9">
+      <div class="textbot_faq">
+        <b class="q_faq">"Posso cancelar em qualquer momento?"</b>
+        <p class="a_faq">
           Sim! Se por alguma razão você não quer mais fazer parte do Clube nimo,
           pode cancelar em qualquer momento, sem multa e sem complicações!
-        </p>
-      </div>
-      <div class="faq">
-        <p class="q_section9">Pergunta?</p>
-        <p class="a_section9">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-          error reprehenderit ipsum vitae eius, fuga consequatur dolorem sit
-          veniam. Velit est iste officiis quis unde consequuntur omnis maxime
-          molestiae ratione?
-        </p>
-      </div>
-      <div class="faq">
-        <p class="q_section9">Pergunta?</p>
-        <p class="a_section9">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-          error reprehenderit ipsum vitae eius, fuga consequatur dolorem sit
-          veniam. Velit est iste officiis quis unde consequuntur omnis maxime
-          molestiae ratione?
-        </p>
-      </div>
-      <div class="faq">
-        <p class="q_section9">Pergunta?</p>
-        <p class="a_section9">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur
-          error reprehenderit ipsum vitae eius, fuga consequatur dolorem sit
-          veniam. Velit est iste officiis quis unde consequuntur omnis maxime
-          molestiae ratione?
         </p>
       </div>
     </div>
