@@ -212,6 +212,20 @@ label {
     width: fit-content;
 }
 
+.screenshots {
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    height: 200px;
+    margin: 15px 0 30px;
+}
+
+#screenshot_app {
+    flex-grow: 1;
+    height: 100%;
+    margin: 0 3px;
+}
+
 /* SUPPORT */
 
 .support {
@@ -234,8 +248,7 @@ label {
     font-weight: 400;
 }
 
-
-/* SECTION 9 */
+/* FAQ */
 
 .faq {
     background-color: #FFFFFF;
