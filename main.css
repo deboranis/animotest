@@ -108,6 +108,8 @@ label {
     border: 1px solid #bdb8b8;
     border-radius: 5px;
     margin: 15px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .card_p_clubeanimo {
@@ -258,9 +260,11 @@ label {
     margin-top: 20px;
 }
 
-.dash {
+.textbox_support_dash {
     border-top: 1px solid #86559F;
     padding-top: 30px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .a_support {
@@ -288,3 +292,275 @@ label {
 }
 
 /* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+    .container {
+        padding: 50px;
+    }
+
+    .cards_clubeanimo {
+        flex-direction: row;
+    }
+
+    .card_info_clubeanimo {
+        min-width: 200px;
+        padding: 20px;
+        align-self: center;
+    }
+
+    .card_list_clubeanimo {
+        border-top: none;
+        border-left: 1px solid #bdb8b8;
+        padding: 10px 15px;
+        align-self: center;
+    }
+
+    .card_img_clubeanimo {
+        padding-top: 0;
+    }
+
+    .review {
+        padding: 20px 30px;
+        margin-bottom: 30px;
+    }
+
+    .titles_crew {
+        text-align: center;
+    }
+
+    .cards_crew {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .screenshots {
+        height: 430px;
+        margin-bottom: 40px;
+    }
+
+    #btn_download {
+        margin-top: 50px;
+    }
+
+    .div_support {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .textbox_support {
+        margin: 0 20px 0 0;
+        max-width: 334px;
+    }
+
+    .textbox_support_dash {
+        border-top: none;
+        /* border-left: 1px solid #86559F; */
+        padding: 0;
+        margin: 0;
+        max-width: 334px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #btn_form {
+        width: 50%;
+        margin: 30px 0;
+    }
+
+    input {
+        width: 60%;
+    }
+    
+    .container {
+        padding: 30px 80px;
+    }
+
+    .cards_crew {
+        justify-content: center;
+    }
+
+    .purple {
+        margin-top: 30px;
+    }
+
+    .screenshots {
+        max-height: fit-content;
+        justify-content: center;
+        height: 500px;
+    }
+
+    #screenshot_app {
+        max-width: 250px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .text_container_app {
+        text-align: center;
+    }
+
+    .textbox_support {
+        max-width: 400px;
+        margin-right: 30px;
+    }
+
+    .textbox_support_dash {
+        border-left: 1px solid #86559F;
+        padding-left: 35px;
+        max-width: 400px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    h1 {
+        font-size: 9vh;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-size: 7vh;
+    }
+
+    h4 {
+        font-size: 3.5vh;
+    }
+    
+    .container {
+        padding: 50px 150px;
+    }
+
+    p, b, em {
+        font-size: 18px;
+    }
+
+    .titles_clubeanimo {
+        margin-bottom: 50px;
+    }
+
+    .titles_crew {
+        margin: 30px 0 40px;
+    }
+
+    .crewmember {
+        margin: 0 20px;
+    }
+
+    #text_container_app1 {
+        margin-top: 50px;
+    }
+
+    #btn_download {
+        text-align: center;
+        width: 20%;
+    }
+
+    .support {
+        display: flex;
+        justify-content: center;
+    }
+
+    .div_support {
+        justify-content: center;
+    }
+
+    .textbox_support {
+        max-width: 400px;
+        margin-right: 60px;
+    }
+
+    .textbox_support_dash {
+        max-width: 400px;
+        padding-left: 60px;
+    }
+
+    .a_support {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    
+    p, b, em, label, button, .a_support {
+        font-size: 28px;
+    }
+
+    input {
+        font-size: 28px;
+        width: 40%;
+    }
+
+    h5 {
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+
+    .container {
+        padding: 50px 300px;
+    }
+
+    #btn_form {
+        width: 40%;
+        font-size: 28px;
+        padding: 25px;
+        font-weight: 700;
+    }
+
+    .card_info_clubeanimo {
+        min-width: 300px;
+    }
+
+    .card_list_clubeanimo {
+        padding-left: 25px;
+    }
+
+    .review {
+        margin: 30px 0 40px;
+        padding: 40px;
+    }
+
+    #crewmember_img {
+        max-width: 250px;
+    }
+
+    .crewmember {
+        max-width: 270px;
+    }
+
+    #btn_download {
+        font-size: 28px;
+        width: 30%;
+        padding: 25px;
+        font-weight: 700;
+    }
+
+    #icon_app {
+        max-width: 40px;
+    }
+
+    #screenshot_app {
+        max-width: 300px;
+        height: fit-content;
+    }
+
+    .screenshots {
+        height: 680px;
+        margin-bottom: 0;
+    }
+
+    .textbox_support {
+        max-width: 500px;
+        margin-right: 90px;
+    }
+
+    .textbox_support_dash {
+        max-width: 500px;
+        padding-left: 90px;
+    }
+
+    #title_support {
+        margin: 50px 0;
+    }
+}
